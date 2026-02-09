@@ -15,4 +15,5 @@ inputs:
     required: false
     default: "git"
 runs:
-  using: 'gcr.io/sandbox-csuite/csuite/mirroring:develop'
+  using: 'docker'
+  image: 'gcr.io/sandbox-csuite/csuite/mirroring:develop'
